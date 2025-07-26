@@ -99,6 +99,10 @@ img {
     
 }
 
+.btn a:hover {
+    color: black;
+    transition: color 0.3s ease;
+}
 
 .btn {
     background-color: #E95A08;
@@ -155,6 +159,13 @@ nav ul .cart {
 
 nav ul .cart a {
     color: #252432;
+}
+
+nav ul li.home a:hover,
+nav ul li.cart a:hover {
+    color: #E95A08; 
+    text-decoration: none;
+    transition: color 0.3s ease;
 }
 
 /* hero section */
@@ -400,6 +411,10 @@ form {
     margin-top: 32px;
 }
 
+.quick-link a:hover {
+    color: red;
+    transition: color 0.3s ease;
+}
 
 .site-identity img {
     margin-bottom: 16px;
@@ -538,8 +553,6 @@ form {
         flex-direction: column;
         padding: 0 20px;
     }
-
-
 }
 
 
